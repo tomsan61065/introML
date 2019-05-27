@@ -28,3 +28,5 @@ __pycache__
 .pytest_cache
 .python-version
 ./HW10/inverted_file.json
+./.git/objects/58/a5ac61dd236f2c70d0251d1823fdb33c3c1061
+./dataAnalysis/NC_1_All.txt
