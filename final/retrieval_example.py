@@ -37,12 +37,11 @@ for (query_id, query) in querys:
 	#		Hint:method of Counter object 
 	query_cnt = Counter() # record term frequency for each word in query 
 	"*** YOUR CODE HERE ***" 
-	seg_list = jieba.cut(query)
+	seg_list = jieba.cut_for_search(query)
 	for item in seg_list:
-		print(item)
 		query_cnt[item] += 1
 
-	exit()
+	
 
 	# calculate scores by tf-idf:
 	# for each word in the query, 
